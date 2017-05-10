@@ -2,7 +2,7 @@ FROM ypzhuang/gradle
 
 MAINTAINER ypzhuang <sunbei914914@msn.com>
 
-ENV NPM_CONFIG_LOGLEVEL info
+ENV NPM_CONFIG_LOGLEVEL error
 ENV NODE_VERSION 6.10.3
 
 RUN addgroup -g 1000 node \
