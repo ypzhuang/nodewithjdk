@@ -1,4 +1,4 @@
-FROM ypzhuang/jdk_alpine
+FROM ypzhuang/gradle
 
 MAINTAINER ypzhuang <sunbei914914@msn.com>
 

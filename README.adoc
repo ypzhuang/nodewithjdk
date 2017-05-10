@@ -1,2 +1,4 @@
-= Node.js 6.10.3 withd JDK on Alpine 
+= Node.js 6.10.3 on Alpine 
+
+reference to https://github.com/nodejs/docker-node/blob/68ec46d47edc70337e602dd98cb6606c434783d4/6.10/alpine/Dockerfile[offical Dockerfile]
 
