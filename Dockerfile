@@ -9,6 +9,7 @@ RUN addgroup -g 1000 node \
     && adduser -u 1000 -G node -s /bin/sh -D node \
     && apk add --no-cache \
         libstdc++ \
+        git \
     && apk add --no-cache --virtual .build-deps \
         binutils-gold \
         curl \
@@ -18,8 +19,7 @@ RUN addgroup -g 1000 node \
         libgcc \
         linux-headers \
         make \
-        python \
-        git \
+        python \       
   # gpg keys listed at https://github.com/nodejs/node#release-team
   && for key in \
     9554F04D7259F04124DE6B476D5A82AC7E37093B \
